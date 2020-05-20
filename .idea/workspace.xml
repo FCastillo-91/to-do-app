@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e1afc2f-7dcb-4286-8a82-2f0b2939c567" name="Default Changelist" comment="Initial Setup">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0e1afc2f-7dcb-4286-8a82-2f0b2939c567" name="Default Changelist" comment="To List Item, Delete Item, Add Item">
+      <change afterPath="$PROJECT_DIR$/src/components/io/AddToDo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todos/ToDoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todos/ToDos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +49,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/todos" />
+      <recent name="$PROJECT_DIR$/src/components/layout" />
       <recent name="$PROJECT_DIR$/src/container" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -75,22 +80,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589974331043</updated>
-      <workItem from="1589974332312" duration="1281000" />
+      <workItem from="1589974332312" duration="11916000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Setup">
+      <created>1589976846897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589976846897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Setup" />
+    <MESSAGE value="To List Item, Delete Item, Add Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="To List Item, Delete Item, Add Item" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-450" y="-963" key="CommitChangelistDialog2" timestamp="1589976828483">
-      <screen x="-1164" y="-1057" width="1920" height="1000" />
+    <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589996950210">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.820@0.23.1440.820" timestamp="1589996950210" />
+    <state x="536" y="48" key="CommitChangelistDialog2" timestamp="1590005672415">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="-450" y="-958" key="CommitChangelistDialog2/0.23.1440.820/756.-1057.1920.1057/-1164.-1057.1920.1057@-1164.-1057.1920.1057" timestamp="1589976303929" />
-    <state x="-450" y="-963" key="CommitChangelistDialog2/0.23.1440.877/756.-1057.1920.1057/-1164.-1057.1920.1000@-1164.-1057.1920.1000" timestamp="1589976828483" />
+    <state x="536" y="48" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1590005672415" />
+    <state x="-450" y="-963" key="CommitChangelistDialog2/0.23.1440.877/756.-1057.1920.1057/-1164.-1057.1920.1000@-1164.-1057.1920.1000" timestamp="1589976846793" />
     <state x="-412" y="-800" key="RollbackChangesDialog" timestamp="1589974507797">
       <screen x="-1164" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-412" y="-800" key="RollbackChangesDialog/0.23.1440.820/756.-1057.1920.1057/-1164.-1057.1920.1057@-1164.-1057.1920.1057" timestamp="1589974507797" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1589999607026">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.820@0.23.1440.820" timestamp="1589999607026" />
+    <state x="-604" y="-817" key="Vcs.Push.Dialog.v2" timestamp="1589976973959">
+      <screen x="-1164" y="-1057" width="1920" height="1000" />
+    </state>
+    <state x="-604" y="-817" key="Vcs.Push.Dialog.v2/0.23.1440.877/756.-1057.1920.1057/-1164.-1057.1920.1000@-1164.-1057.1920.1000" timestamp="1589976973959" />
   </component>
 </project>
