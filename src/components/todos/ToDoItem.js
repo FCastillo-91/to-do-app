@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from "prop-types";
 
 export class ToDoItem extends Component {
     getStyle = () => {
@@ -24,10 +23,6 @@ export class ToDoItem extends Component {
         )
     }
 
-}
-
-ToDoItem.propTypes = {
-    todo: PropTypes.object.isRequired
 }
 
 const btnStyle = {
